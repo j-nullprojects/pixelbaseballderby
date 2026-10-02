@@ -1,0 +1,65 @@
+:root {
+  --bg: #000000;
+  --text: #8cff66;
+  --dim: #31a338;
+  --line: #13401a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 16px 64px;
+}
+
+h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 32px 0 8px;
+  padding-top: 16px;
+  border-top: 2px solid var(--line);
+}
+
+p,
+li {
+  color: var(--text);
+}
+
+.subtitle {
+  color: var(--dim);
+  margin: 0 0 24px;
+}
+
+a {
+  color: var(--text);
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+footer {
+  margin-top: 48px;
+  color: var(--dim);
+  font-size: 14px;
+}
